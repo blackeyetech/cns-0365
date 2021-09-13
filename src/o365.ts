@@ -24,13 +24,14 @@ class CNO365 extends CNShell {
   // Properties here
   private _appId: string;
   private _clientSecret: string;
-  private _resource: string;
   private _tenantId: string;
   private _grantType: string;
 
-  private _token: string | undefined;
   private _tokenGracePeriod: number;
   private _tokenTimeout: NodeJS.Timeout;
+
+  protected _resource: string;
+  protected _token: string | undefined;
 
   // Constructor here
   constructor(name: string, master?: CNShell) {
