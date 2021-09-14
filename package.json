@@ -63,10 +63,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blackeyetech/cns-o365-outlook.git"
+    "url": "git+https://github.com/blackeyetech/cns-o365.git"
   },
   "bugs": {
-    "url": "https://github.com/blackeyetech/cns-o365-outlook/issues"
+    "url": "https://github.com/blackeyetech/cns-o365/issues"
   },
-  "homepage": "https://github.com/blackeyetech/cns-o365-outlook#readme"
+  "homepage": "https://github.com/blackeyetech/cns-o365#readme"
 }
